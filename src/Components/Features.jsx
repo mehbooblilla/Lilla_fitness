@@ -8,10 +8,51 @@ function Feature() {
     return (
         <div id="features">
             <h1>Features</h1>
-            <div className='a-container'>
-                <FeatureBox image={secondimage} title="Cardio Exercise" />
-                <FeatureBox image={firstimage} title="WeightLifting" />
-                <FeatureBox image={thirdtimage} title="Specific Muscle" />
+            <div className="container">
+                <div className="row" style={{ display: "flex" }}>
+                    <div className="col-4" >
+                        <div className='a-box featureCard'>
+
+                            <div className='a-b-img'>
+                                <img src={firstimage} alt="" />
+                            </div>
+                            <div className='a-b-text'>
+                                <h2>lorem</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div className="col-4 ">
+                        <div className='a-box featureCard'>
+
+                            <div className='a-b-img'>
+                                <img src={secondimage} alt="" />
+                            </div>
+                            <div className='a-b-text'>
+                                <h2>lorem</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div className="col-4 ">
+                        <div className='a-box featureCard'>
+
+                            <div className='a-b-img'>
+                                <img src={thirdtimage} alt="" />
+                            </div>
+                            <div className='a-b-text'>
+                                <h2>lorem</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>

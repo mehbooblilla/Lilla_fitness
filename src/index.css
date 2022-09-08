@@ -197,6 +197,10 @@ nav ul li a:hover {
 
 }
 
+.featureCard {
+  height: 30rem;
+}
+
 #features h1 {
   color: #fff;
   font-size: 3rem;
